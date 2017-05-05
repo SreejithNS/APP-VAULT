@@ -9,6 +9,6 @@
 <description>This app is a property of Jithu Appalam Products. This app is for Sales and Marketing Employees at Jithu Appalam Products.</description>
 <author email="nssreejith229@gmail.com">Sreejith N</author>
 <platform name="android">
-  <icon src="logo.jpg" width="180" height="180" />
+  <icon src="icon.png" width="180" height="180" />
 </platform>
 </widget>
