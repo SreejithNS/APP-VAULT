@@ -8,5 +8,7 @@
 <name>SALES APP</name>
 <description>This app is a property of Jithu Appalam Products. This app is for Sales and Marketing Employees at Jithu Appalam Products.</description>
 <author email="nssreejith229@gmail.com">Sreejith N</author>
-<platform name="android" />
+<platform name="android">
+  <icon src="logo.jpg" width="180" height="180" />
+</platform>
 </widget>
