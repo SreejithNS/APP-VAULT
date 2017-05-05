@@ -1,0 +1,941 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<head>
+	<title>JITHU APPALAM PRODUCTS | SALES APP |</title>
+	
+	</head><center>
+	<div  style="align:center;max-width:500px;">
+	<link rel="stylesheet" href="style.css" type="text/css" /> 
+ 	<link rel="icon" type="image/png" id="favicon" href="logo.jpg" />
+	
+
+	<script>
+	function dis() {
+	var ttlamt = document.getElementById("ttlamt").innerHTML;
+	var disa = document.getElementById("disa").value;
+	document.getElementById("ttlamt").innerHTML = parseInt(ttlamt) - ( parseInt(ttlamt) * ( parseInt(disa) / "100") );
+ 	}
+	function clr() {
+	document.getElementById("n1").innerHTML = "";
+	document.getElementById("q1").innerHTML = "";
+	document.getElementById("a1").innerHTML = "";
+	document.getElementById("n2").innerHTML = "";
+	document.getElementById("q2").innerHTML = "";
+	document.getElementById("a2").innerHTML = "";
+	document.getElementById("n3").innerHTML = "";
+	document.getElementById("q3").innerHTML = "";
+	document.getElementById("a3").innerHTML = "";
+	document.getElementById("n4").innerHTML = "";
+	document.getElementById("q4").innerHTML = "";
+	document.getElementById("a4").innerHTML = "";
+	document.getElementById("n5").innerHTML = "";
+	document.getElementById("q5").innerHTML = "";
+	document.getElementById("a5").innerHTML = "";
+	document.getElementById("disa").value = "";
+	document.getElementById("ttlamt").innerHTML = "";
+	}
+	function bill() {
+		var cd1 = document.getElementById("cd1").value ;
+		var cd2 = document.getElementById("cd2").value ;
+		var cd3 = document.getElementById("cd3").value ;
+		var cd4 = document.getElementById("cd4").value ;
+		var cd5 = document.getElementById("cd5").value ;
+
+		switch(cd1) {
+
+		case "":
+		n1 = "";
+		q1 = "";
+		a1 = "0"
+		break;
+
+		case "1":
+		n1 = document.getElementById("pn1").innerHTML ;
+		q1 = document.getElementById("qt1").value ;
+		a1 = document.getElementById("pr1").value * document.getElementById("qt1").value ;
+		break;
+
+		case "2":
+		n1 = document.getElementById("pn2").innerHTML ;
+		q1 = document.getElementById("qt1").value ;
+		a1 = document.getElementById("pr2").value * document.getElementById("qt1").value ;
+		break;
+
+		case "3":
+		n1 = document.getElementById("pn3").innerHTML ;
+		q1 = document.getElementById("qt1").value ;
+		a1 = document.getElementById("pr3").value * document.getElementById("qt1").value ;
+		break;
+
+
+		case "4":
+		n1 = document.getElementById("pn4").innerHTML ;
+		q1 = document.getElementById("qt1").value ;
+		a1 = document.getElementById("pr4").value * document.getElementById("qt1").value ;
+		break;
+
+
+		case "5":
+		n1 = document.getElementById("pn5").innerHTML ;
+		q1 = document.getElementById("qt1").value ;
+		a1 = document.getElementById("pr5").value * document.getElementById("qt1").value ;
+		break;
+
+
+		case "6":
+		n1 = document.getElementById("pn6").innerHTML ;
+		q1 = document.getElementById("qt1").value ;
+		a1 = document.getElementById("pr6").value * document.getElementById("qt1").value ;
+		break;
+
+
+		case "7":
+		n1 = document.getElementById("pn7").innerHTML ;
+		q1 = document.getElementById("qt1").value ;
+		a1 = document.getElementById("pr7").value * document.getElementById("qt1").value ;
+		break;
+
+
+		case "8":
+		n1 = document.getElementById("pn8").innerHTML ;
+		q1 = document.getElementById("qt1").value ;
+		a1 = document.getElementById("pr8").value * document.getElementById("qt1").value ;
+		break;
+
+
+		case "9":
+		n1 = document.getElementById("pn9").innerHTML ;
+		q1 = document.getElementById("qt1").value ;
+		a1 = document.getElementById("pr9").value * document.getElementById("qt1").value ;
+		break;
+
+
+		case "10":
+		n1 = document.getElementById("pn10").innerHTML ;
+		q1 = document.getElementById("qt1").value ;
+		a1 = document.getElementById("pr10").value * document.getElementById("qt1").value ;
+		break;
+
+
+		case "11":
+		n1 = document.getElementById("pn11").innerHTML ;
+		q1 = document.getElementById("qt1").value ;
+		a1 = document.getElementById("pr11").value * document.getElementById("qt1").value ;
+		break;
+
+
+		case "12":
+		n1 = document.getElementById("pn12").innerHTML ;
+		q1 = document.getElementById("qt1").value ;
+		a1 = document.getElementById("pr12").value * document.getElementById("qt1").value ;
+		break;
+
+
+		case "13":
+		n1 = document.getElementById("pn13").innerHTML ;
+		q1 = document.getElementById("qt1").value ;
+		a1 = document.getElementById("pr13").value * document.getElementById("qt1").value ;
+		break;
+
+
+		case "14":
+		n1 = document.getElementById("pn14").innerHTML ;
+		q1 = document.getElementById("qt1").value ;
+		a1 = document.getElementById("pr14").value * document.getElementById("qt1").value ;
+		break;
+
+
+		case "15":
+		n1 = document.getElementById("pn15").innerHTML ;
+		q1 = document.getElementById("qt1").value ;
+		a1 = document.getElementById("pr15").value * document.getElementById("qt1").value ;
+		break;
+
+
+		case "16":
+		n1 = document.getElementById("pn16").innerHTML ;
+		q1 = document.getElementById("qt1").value ;
+		a1 = document.getElementById("pr16").value * document.getElementById("qt1").value ;
+		break;
+		}
+		
+		switch(cd2) {
+
+		case "":
+		n2 = "";
+		q2 = "";
+		a2 = "0"
+		break;
+
+		case "1":
+		n2 = document.getElementById("pn1").innerHTML ;
+		q2 = document.getElementById("qt2").value ;
+		a2 = document.getElementById("pr1").value * document.getElementById("qt2").value ;
+		break;
+
+		case "2":
+		n2 = document.getElementById("pn2").innerHTML ;
+		q2 = document.getElementById("qt2").value ;
+		a2 = document.getElementById("pr2").value * document.getElementById("qt2").value ;
+		break;
+
+		case "3":
+		n2 = document.getElementById("pn3").innerHTML ;
+		q2 = document.getElementById("qt2").value ;
+		a2 = document.getElementById("pr3").value * document.getElementById("qt2").value ;
+		break;
+
+
+		case "4":
+		n2 = document.getElementById("pn4").innerHTML ;
+		q2 = document.getElementById("qt2").value ;
+		a2 = document.getElementById("pr4").value * document.getElementById("qt2").value ;
+		break;
+
+
+		case "5":
+		n2 = document.getElementById("pn5").innerHTML ;
+		q2 = document.getElementById("qt2").value ;
+		a2 = document.getElementById("pr5").value * document.getElementById("qt2").value ;
+		break;
+
+
+		case "6":
+		n2 = document.getElementById("pn6").innerHTML ;
+		q2 = document.getElementById("qt2").value ;
+		a2 = document.getElementById("pr6").value * document.getElementById("qt2").value ;
+		break;
+
+
+		case "7":
+		n2 = document.getElementById("pn7").innerHTML ;
+		q2 = document.getElementById("qt2").value ;
+		a2 = document.getElementById("pr7").value * document.getElementById("qt2").value ;
+		break;
+
+
+		case "8":
+		n2 = document.getElementById("pn8").innerHTML ;
+		q2 = document.getElementById("qt2").value ;
+		a2 = document.getElementById("pr8").value * document.getElementById("qt2").value ;
+		break;
+
+
+		case "9":
+		n2 = document.getElementById("pn9").innerHTML ;
+		q2 = document.getElementById("qt2").value ;
+		a2 = document.getElementById("pr9").value * document.getElementById("qt2").value ;
+		break;
+
+
+		case "10":
+		n2 = document.getElementById("pn10").innerHTML ;
+		q2 = document.getElementById("qt2").value ;
+		a2 = document.getElementById("pr10").value * document.getElementById("qt2").value ;
+		break;
+
+
+		case "11":
+		n2 = document.getElementById("pn11").innerHTML ;
+		q2 = document.getElementById("qt2").value ;
+		a2 = document.getElementById("pr11").value * document.getElementById("qt2").value ;
+		break;
+
+
+		case "12":
+		n2 = document.getElementById("pn12").innerHTML ;
+		q2 = document.getElementById("qt2").value ;
+		a2 = document.getElementById("pr12").value * document.getElementById("qt2").value ;
+		break;
+
+
+		case "13":
+		n2 = document.getElementById("pn13").innerHTML ;
+		q2 = document.getElementById("qt2").value ;
+		a2 = document.getElementById("pr13").value * document.getElementById("qt2").value ;
+		break;
+
+
+		case "14":
+		n2 = document.getElementById("pn14").innerHTML ;
+		q2 = document.getElementById("qt2").value ;
+		a2 = document.getElementById("pr14").value * document.getElementById("qt2").value ;
+		break;
+
+
+		case "15":
+		n2 = document.getElementById("pn15").innerHTML ;
+		q2 = document.getElementById("qt2").value ;
+		a2 = document.getElementById("pr15").value * document.getElementById("qt2").value ;
+		break;
+
+
+		case "16":
+		n2 = document.getElementById("pn16").innerHTML ;
+		q2 = document.getElementById("qt2").value ;
+		a2 = document.getElementById("pr16").value * document.getElementById("qt2").value ;
+		break;
+		}
+		
+		switch(cd3) {
+
+		case "":
+		n3 = "";
+		q3 = "";
+		a3 = "0"
+		break;
+
+		case "1":
+		n3 = document.getElementById("pn1").innerHTML ;
+		q3 = document.getElementById("qt3").value ;
+		a3 = document.getElementById("pr1").value * document.getElementById("qt3").value ;
+		break;
+
+		case "2":
+		n3 = document.getElementById("pn2").innerHTML ;
+		q3 = document.getElementById("qt3").value ;
+		a3 = document.getElementById("pr2").value * document.getElementById("qt3").value ;
+		break;
+
+		case "3":
+		n3 = document.getElementById("pn3").innerHTML ;
+		q3 = document.getElementById("qt3").value ;
+		a3 = document.getElementById("pr3").value * document.getElementById("qt3").value ;
+		break;
+
+
+		case "4":
+		n3 = document.getElementById("pn4").innerHTML ;
+		q3 = document.getElementById("qt3").value ;
+		a3 = document.getElementById("pr4").value * document.getElementById("qt3").value ;
+		break;
+
+
+		case "5":
+		n3 = document.getElementById("pn5").innerHTML ;
+		q3 = document.getElementById("qt3").value ;
+		a3 = document.getElementById("pr5").value * document.getElementById("qt3").value ;
+		break;
+
+
+		case "6":
+		n3 = document.getElementById("pn6").innerHTML ;
+		q3 = document.getElementById("qt3").value ;
+		a3 = document.getElementById("pr6").value * document.getElementById("qt3").value ;
+		break;
+
+
+		case "7":
+		n3 = document.getElementById("pn7").innerHTML ;
+		q3 = document.getElementById("qt3").value ;
+		a3 = document.getElementById("pr7").value * document.getElementById("qt3").value ;
+		break;
+
+
+		case "8":
+		n3 = document.getElementById("pn8").innerHTML ;
+		q3 = document.getElementById("qt3").value ;
+		a3 = document.getElementById("pr8").value * document.getElementById("qt3").value ;
+		break;
+
+
+		case "9":
+		n3 = document.getElementById("pn9").innerHTML ;
+		q3 = document.getElementById("qt3").value ;
+		a3 = document.getElementById("pr9").value * document.getElementById("qt3").value ;
+		break;
+
+
+		case "10":
+		n3 = document.getElementById("pn10").innerHTML ;
+		q3 = document.getElementById("qt3").value ;
+		a3 = document.getElementById("pr10").value * document.getElementById("qt3").value ;
+		break;
+
+
+		case "11":
+		n3 = document.getElementById("pn11").innerHTML ;
+		q3 = document.getElementById("qt3").value ;
+		a3 = document.getElementById("pr11").value * document.getElementById("qt3").value ;
+		break;
+
+
+		case "12":
+		n3 = document.getElementById("pn12").innerHTML ;
+		q3 = document.getElementById("qt3").value ;
+		a3 = document.getElementById("pr12").value * document.getElementById("qt3").value ;
+		break;
+
+
+		case "13":
+		n3 = document.getElementById("pn13").innerHTML ;
+		q3 = document.getElementById("qt3").value ;
+		a3 = document.getElementById("pr13").value * document.getElementById("qt3").value ;
+		break;
+
+
+		case "14":
+		n3 = document.getElementById("pn14").innerHTML ;
+		q3 = document.getElementById("qt3").value ;
+		a3 = document.getElementById("pr14").value * document.getElementById("qt3").value ;
+		break;
+
+
+		case "15":
+		n3 = document.getElementById("pn15").innerHTML ;
+		q3 = document.getElementById("qt3").value ;
+		a3 = document.getElementById("pr15").value * document.getElementById("qt3").value ;
+		break;
+
+
+		case "16":
+		n3 = document.getElementById("pn16").innerHTML ;
+		q3 = document.getElementById("qt3").value ;
+		a3 = document.getElementById("pr16").value * document.getElementById("qt3").value ;
+		break;
+		}
+
+		switch(cd4) {
+
+		case "":
+		n4 = "";
+		q4 = "";
+		a4 = "0"
+		break;
+		case "1":
+		n4 = document.getElementById("pn1").innerHTML ;
+		q4 = document.getElementById("qt4").value ;
+		a4 = document.getElementById("pr1").value * document.getElementById("qt4").value ;
+		break;
+
+		case "2":
+		n4 = document.getElementById("pn2").innerHTML ;
+		q4 = document.getElementById("qt4").value ;
+		a4 = document.getElementById("pr2").value * document.getElementById("qt4").value ;
+		break;
+
+		case "3":
+		n4 = document.getElementById("pn3").innerHTML ;
+		q4 = document.getElementById("qt4").value ;
+		a4 = document.getElementById("pr3").value * document.getElementById("qt4").value ;
+		break;
+
+
+		case "4":
+		n4 = document.getElementById("pn4").innerHTML ;
+		q4 = document.getElementById("qt4").value ;
+		a4 = document.getElementById("pr4").value * document.getElementById("qt4").value ;
+		break;
+
+
+		case "5":
+		n4 = document.getElementById("pn5").innerHTML ;
+		q4 = document.getElementById("qt4").value ;
+		a4 = document.getElementById("pr5").value * document.getElementById("qt4").value ;
+		break;
+
+
+		case "6":
+		n4 = document.getElementById("pn6").innerHTML ;
+		q4 = document.getElementById("qt4").value ;
+		a4 = document.getElementById("pr6").value * document.getElementById("qt4").value ;
+		break;
+
+
+		case "7":
+		n4 = document.getElementById("pn7").innerHTML ;
+		q4 = document.getElementById("qt4").value ;
+		a4 = document.getElementById("pr7").value * document.getElementById("qt4").value ;
+		break;
+
+
+		case "8":
+		n4 = document.getElementById("pn8").innerHTML ;
+		q4 = document.getElementById("qt4").value ;
+		a4 = document.getElementById("pr8").value * document.getElementById("qt4").value ;
+		break;
+
+
+		case "9":
+		n4 = document.getElementById("pn9").innerHTML ;
+		q4 = document.getElementById("qt4").value ;
+		a4 = document.getElementById("pr9").value * document.getElementById("qt4").value ;
+		break;
+
+
+		case "10":
+		n4 = document.getElementById("pn10").innerHTML ;
+		q4 = document.getElementById("qt4").value ;
+		a4 = document.getElementById("pr10").value * document.getElementById("qt4").value ;
+		break;
+
+
+		case "11":
+		n4 = document.getElementById("pn11").innerHTML ;
+		q4 = document.getElementById("qt4").value ;
+		a4 = document.getElementById("pr11").value * document.getElementById("qt4").value ;
+		break;
+
+
+		case "12":
+		n4 = document.getElementById("pn12").innerHTML ;
+		q4 = document.getElementById("qt4").value ;
+		a4 = document.getElementById("pr12").value * document.getElementById("qt4").value ;
+		break;
+
+
+		case "13":
+		n4 = document.getElementById("pn13").innerHTML ;
+		q4 = document.getElementById("qt4").value ;
+		a4 = document.getElementById("pr13").value * document.getElementById("qt4").value ;
+		break;
+
+
+		case "14":
+		n4 = document.getElementById("pn14").innerHTML ;
+		q4 = document.getElementById("qt4").value ;
+		a4 = document.getElementById("pr14").value * document.getElementById("qt4").value ;
+		break;
+
+
+		case "15":
+		n4 = document.getElementById("pn15").innerHTML ;
+		q4 = document.getElementById("qt4").value ;
+		a4 = document.getElementById("pr15").value * document.getElementById("qt4").value ;
+		break;
+
+
+		case "16":
+		n4 = document.getElementById("pn16").innerHTML ;
+		q4 = document.getElementById("qt4").value ;
+		a4 = document.getElementById("pr16").value * document.getElementById("qt4").value ;
+		break;
+		}
+
+		switch(cd5) {
+
+		case "":
+		n5 = "";
+		q5 = "";
+		a5 = "0"
+		break;
+		case "1":
+		n5 = document.getElementById("pn1").innerHTML ;
+		q5 = document.getElementById("qt5").value ;
+		a5 = document.getElementById("pr1").value * document.getElementById("qt5").value ;
+		break;
+
+		case "2":
+		n5 = document.getElementById("pn2").innerHTML ;
+		q5 = document.getElementById("qt5").value ;
+		a5 = document.getElementById("pr2").value * document.getElementById("qt5").value ;
+		break;
+
+		case "3":
+		n5 = document.getElementById("pn3").innerHTML ;
+		q5 = document.getElementById("qt5").value ;
+		a5 = document.getElementById("pr3").value * document.getElementById("qt5").value ;
+		break;
+
+
+		case "4":
+		n5 = document.getElementById("pn4").innerHTML ;
+		q5 = document.getElementById("qt5").value ;
+		a5 = document.getElementById("pr4").value * document.getElementById("qt5").value ;
+		break;
+
+
+		case "5":
+		n5 = document.getElementById("pn5").innerHTML ;
+		q5 = document.getElementById("qt5").value ;
+		a5 = document.getElementById("pr5").value * document.getElementById("qt5").value ;
+		break;
+
+
+		case "6":
+		n5 = document.getElementById("pn6").innerHTML ;
+		q5 = document.getElementById("qt5").value ;
+		a5 = document.getElementById("pr6").value * document.getElementById("qt5").value ;
+		break;
+
+
+		case "7":
+		n5 = document.getElementById("pn7").innerHTML ;
+		q5 = document.getElementById("qt5").value ;
+		a5 = document.getElementById("pr7").value * document.getElementById("qt5").value ;
+		break;
+
+
+		case "8":
+		n5 = document.getElementById("pn8").innerHTML ;
+		q5 = document.getElementById("qt5").value ;
+		a5 = document.getElementById("pr8").value * document.getElementById("qt5").value ;
+		break;
+
+
+		case "9":
+		n5 = document.getElementById("pn9").innerHTML ;
+		q5 = document.getElementById("qt5").value ;
+		a5 = document.getElementById("pr9").value * document.getElementById("qt5").value ;
+		break;
+
+
+		case "10":
+		n5 = document.getElementById("pn10").innerHTML ;
+		q5 = document.getElementById("qt5").value ;
+		a5 = document.getElementById("pr10").value * document.getElementById("qt5").value ;
+		break;
+
+
+		case "11":
+		n5 = document.getElementById("pn11").innerHTML ;
+		q5 = document.getElementById("qt5").value ;
+		a5 = document.getElementById("pr11").value * document.getElementById("qt5").value ;
+		break;
+
+
+		case "12":
+		n5 = document.getElementById("pn12").innerHTML ;
+		q5 = document.getElementById("qt5").value ;
+		a5 = document.getElementById("pr12").value * document.getElementById("qt5").value ;
+		break;
+
+
+		case "13":
+		n5 = document.getElementById("pn13").innerHTML ;
+		q5 = document.getElementById("qt5").value ;
+		a5 = document.getElementById("pr13").value * document.getElementById("qt5").value ;
+		break;
+
+
+		case "14":
+		n5 = document.getElementById("pn14").innerHTML ;
+		q5 = document.getElementById("qt5").value ;
+		a5 = document.getElementById("pr14").value * document.getElementById("qt5").value ;
+		break;
+
+
+		case "15":
+		n5 = document.getElementById("pn15").innerHTML ;
+		q5 = document.getElementById("qt5").value ;
+		a5 = document.getElementById("pr15").value * document.getElementById("qt5").value ;
+		break;
+
+
+		case "16":
+		n5 = document.getElementById("pn16").innerHTML ;
+		q5 = document.getElementById("qt5").value ;
+		a5 = document.getElementById("pr16").value * document.getElementById("qt5").value ;
+		break;
+		}
+
+	document.getElementById("n1").innerHTML = n1;
+	document.getElementById("q1").innerHTML = q1;
+	document.getElementById("a1").innerHTML = a1;
+	document.getElementById("n2").innerHTML = n2;
+	document.getElementById("q2").innerHTML = q2;
+	document.getElementById("a2").innerHTML = a2;
+	document.getElementById("n3").innerHTML = n3;
+	document.getElementById("q3").innerHTML = q3;
+	document.getElementById("a3").innerHTML = a3;
+	document.getElementById("n4").innerHTML = n4;
+	document.getElementById("q4").innerHTML = q4;
+	document.getElementById("a4").innerHTML = a4;
+	document.getElementById("n5").innerHTML = n5;
+	document.getElementById("q5").innerHTML = q5;
+	document.getElementById("a5").innerHTML = a5;
+	document.getElementById("ttlamt").innerHTML = parseInt(a1) + parseInt(a2) + parseInt(a3) + parseInt(a4) + parseInt(a5);
+	}
+	</script>	
+	<body bgcolor="#34495e">
+
+	<div id="header">
+	<img src="logo2.jpg" width="50px" height="50px" alt="Jithu Applam Products">
+	<div id="title">J I T H U<br><l>APPALAM PRODUCTS</l></div>
+	</div>
+
+
+	<div id="hit">SALES : TIRUPATTUR</div>
+
+	<table><tr><td>
+	
+	<form align="center">
+	<table align="center" bgcolor="#f2f2f2" style="text-align:center;color:white;border: 3px solid #9b59b6;border-radius:5px">
+
+	<tr bgcolor="#9b59b6">
+	<td><p name="th"><b>CODE</b></p></td>
+	<td><p name="th"><b>Quantity</b></p></td>
+	</tr>
+	<!-----------INPUT AREA------------>
+
+	<tr>
+	<td>
+	<input type="number" id="cd1" value="" />
+	</td>
+	<td>
+	<input type="number" id="qt1"  value="" />
+	</td>
+	</tr>
+
+	<tr>
+	<td>
+	<input type="number" id="cd2" value="" />
+	</td>
+	<td>
+	<input type="number" id="qt2"  value="" />
+	</td>
+	</tr>
+
+	<tr>
+	<td>
+	<input type="number" id="cd3" value="" />
+	</td>
+	<td>
+	<input type="number" id="qt3"  value="" />
+	</td>
+	</tr>
+
+	<tr>
+	<td>
+	<input type="number" id="cd4" value="" />
+	</td>
+	<td>
+	<input type="number" id="qt4"  value="" />
+	</td>
+	</tr>
+
+	<tr>
+	<td>
+	<input type="number" id="cd5" value="" />
+	</td>
+	<td>
+	<input type="number" id="qt5"  value="" />
+	</td>
+	</tr>
+
+	<!------------INPUT AREA END---------->
+	<tr colspan="2">
+	<td>
+	<input type="button" id="prnt" value="Print" onclick="bill()" />
+	</td>
+	<td>
+	<input type="reset" value="Reset" />
+	</td>
+	</tr>
+
+	</table>
+	</form>
+
+	</td><td>
+
+<table style="text-align:center;border: 3px solid #9b59b6;" align="center">
+
+	<tr id="display" style="padding-top:2px;padding-bottom:2px;color:white;background-color:#9b59b6;"><td><b>NAME</b></td><td><b> | QUANTITY | </b></td><td><b>AMOUNT</b></td></b></tr>
+	
+	<!----------DISPLAY----------->
+
+	<tr>
+	<td>
+	<p id="n1"></p>
+	</td>
+	<td>
+	<p id="q1"></p>
+	</td>
+	<td>
+	<p id="a1"></p>
+	</td>
+	</tr>
+
+	<tr>
+	<td>
+	<p id="n2"></p>
+	</td>
+	<td>
+	<p id="q2"></p>
+	</td>
+	<td>
+	<p id="a2"></p>
+	</td>
+	</tr>
+
+	<tr>
+	<td>
+	<p id="n3"></p>
+	</td>
+	<td>
+	<p id="q3"></p>
+	</td>
+	<td>
+	<p id="a3"></p>
+	</td>
+	</tr>
+
+	<tr>
+	<td>
+	<p id="n4"></p>
+	</td>
+	<td>
+	<p id="q4"></p>
+	</td>
+	<td>
+	<p id="a4"></p>
+	</td>
+	</tr>
+
+	<tr>
+	<td>
+	<p id="n5"></p>
+	</td>
+	<td>
+	<p id="q5"></p>
+	</td>
+	<td>
+	<p id="a5"></p>
+	</td>
+	</tr>
+
+	<!----------DISPLAY END-------->
+	<tr>
+	
+	<td colspan="2" style="color:#bb1fce;text-align:right">DISCOUNT
+	<input type="button" id="disb" onclick="dis()" value="%" />:</td>
+	<td>
+	<input type="number" id="disa" />
+	</td>
+	</tr>
+	<tr>
+	<td colspan="2" style="color:#bb1fce;text-align:right">TOTAL AMOUNT:<br><input type="button" onclick="clr()" value="CLEAR" /></td>
+	<td>
+	<p id="ttlamt"></p>
+	</td>
+	</tr>
+
+	</table>
+
+	
+	</td></tr></table>
+
+	</div>	
+
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+	<table align="center" style="border-colorborder">
+	
+	<th><tr>
+	<td>CODE</td>
+	<td>Item</td>
+	<td>Cost</td>
+	</tr></th>
+
+	<!---------PRICE LIST--------->
+	<tr>
+	<td>1</td>
+	<td><p id="pn1">A1</p></td>
+	<td><input type="number" id="pr1" value="360" /></td>
+	</tr>
+	
+	<tr>
+	<td>2</td>
+	<td><p id="pn2">NO.2</p></td>
+	<td><input type="number" id="pr2" value="240" /></td>
+	</tr>
+	
+	<tr>
+	<td>3</td>
+	<td><p id="pn3">NO.3</p></td>
+	<td><input type="number" id="pr3" value="180" /></td>
+	</tr>
+
+	
+	<tr>
+	<td>4</td>
+	<td><p id="pn4">NO.4</p></td>
+	<td><input type="number" id="pr4" value="120" /></td>
+	</tr>
+	
+	<tr>
+	<td>5</td>
+	<td><p id="pn5">Baby</p></td>
+	<td><input type="number" id="pr5" value="64" /></td>
+	</tr>
+
+	<tr>
+	<td>6</td>
+	<td><p id="pn6">50g Chips</p></td>
+	<td><input type="number" id="pr6" value="6.5" /></td>
+	</tr>
+	
+	<tr>
+	<td>7</td>
+	<td><p id="pn7">500g Chips</p></td>
+	<td><input type="number" id="pr7" value="65" /></td>
+	</tr>
+	
+	<tr>
+	<td>8</td>
+	<td><p id="pn8">Special Chips</p></td>
+	<td><input type="number" id="pr8" value="15.8" /></td>
+	</tr>
+	
+	<tr>
+	<td>9</td>
+	<td><p id="pn9">80g Chips</p></td>
+	<td><input type="number" id="pr9" value="61" /></td>
+	</tr>
+	
+	<tr>
+	<td>10</td>
+	<td><p id="pn10">500g No.3</p></td>
+	<td><input type="number" id="pr10" value="61" /></td>
+	</tr>
+	
+	<tr>
+	<td>11</td>
+	<td><p id="pn11">75g No.3</p></td>
+	<td><input type="number" id="pr11" value="189" /></td>
+	</tr>
+	
+	<tr>
+	<td>12</td>
+	<td><p id="pn12">Super No.2</p></td>
+	<td><input type="number" id="pr12" value="244" /></td>
+	</tr>
+	
+	<tr>
+	<td>13</td>
+	<td><p id="pn13">Super No.3</p></td>
+	<td><input type="number" id="pr13" value="168" /></td>
+	</tr>
+	
+	<tr>
+	<td>14</td>
+	<td><p id="pn14">Super No.4</p></td>
+	<td><input type="number" id="pr14" value="112" /></td>
+	</tr>
+	
+	<tr>
+	<td>15</td>
+	<td><p id="pn15">50g No.4</p></td>
+	<td><input type="number" id="pr15" value="56" /></td>
+	</tr>
+	
+	<tr>
+	<td>16</td>
+	<td><p id="pn16">75g No.3</p></td>
+	<td><input type="number" id="pr16" value="168" /></td>
+	</tr>
+
+	<!---------PRICE LIST END--------->
+	</table>
+	</body>
+	</div></center>
+</html>

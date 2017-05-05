@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.jithuappalam.salesapp"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+<name>SALES APP</name>
+<description>This app is a property of Jithu Appalam Products. This app is for Sales and Marketing Employees at Jithu Appalam Products.</description>
+<author email="nssreejith229@gmail.com">Sreejith N</author>
+<platform name="android" />
+</widget>
