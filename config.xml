@@ -2,8 +2,8 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.jithuappalam.salesman"
-    versionCode = "11"
-    version     = "1.0.1" >
+    versionCode = "12"
+    version     = "1.0.2" >
 
 <name>Sales Man</name>
 <description>This app is a property of Jithu Appalam Products. This app is for Sales and Marketing Employees at Jithu Appalam Products.</description>
@@ -11,4 +11,5 @@
 <platform name="android">
   <icon src="icon.png" width="180" height="180" />
 </platform>
+<ver>1.0.2</ver>
 </widget>

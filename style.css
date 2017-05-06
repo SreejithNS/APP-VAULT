@@ -572,3 +572,21 @@ r {
 	width:250px;
 	color:#bdc3c7;
 	}
+
+#podbar {
+    bottom:0;
+    position:fixed;
+    z-index:225;
+    _position:absolute;
+    _top:expression(eval(document.documentElement.scrollTop+
+        (document.documentElement.clientHeight-this.offsetHeight)));
+    height:35px;
+	text-align:center;
+}
+
+	#price {
+	border-collapse:collapse;
+	border:1px solid #9b59b6;
+	border-radius:3px;
+	background-color:white;
+	}

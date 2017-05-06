@@ -12,6 +12,39 @@
 	
 	<div style="align:center;max-width:450px;width:0px auto;">
 	<script>
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        myFunction(this);
+    }
+};
+xhttp.open("GET", "config.xml", true);
+xhttp.send();
+
+function myFunction(xml) {
+    var xmlDoc = xml.responseXML;
+    var x = xmlDoc.getElementsByTagName('ver')[0];
+    var y = x.childNodes[0];
+    document.getElementById("ver").innerHTML =
+    y.nodeValue; 
+}
+
+
+
+
+function close_app(){
+navigator.app.exitApp()
+}
+
+function printData()
+{
+   var divToPrint=document.getElementById("show");
+   newWin= window.open("");
+   newWin.document.write(divToPrint.outerHTML);
+   newWin.print();
+   newWin.close();
+}
+
 	function dis() {
 	var ttlamt = document.getElementById("ttlamt").innerHTML;
 	var disa = document.getElementById("disa").value;
@@ -818,7 +851,8 @@
 	</td></tr></table>
 
 	</div><br>
-	<div id="hitfoot"><code> VERSION:1.0.0 | PRICE LIST: MARCH | ZONE: TIRUPATTUR</code></div>
+	<div id="hitfoot"><code>VERSION: </code><code id="ver"></code><code> | PRICE LIST: MARCH | ZONE: TIRUPATTUR</code></div>
+	<div id="podbar"><center><input type="button" value="Quit" onclick="close_app()" /><input type="button" value="PRINT" onclick="printData()" /></center></div>
 <br><br>
 <br><br>
 <br><br>
@@ -828,13 +862,13 @@
 <br><br>
 <br><br>
 <br><br>
-	<table align="center" style="border-colorborder">
+	<table align="center" id="price">
 	
-	<th><tr>
+	<tr style="background-color:#9b59b6;color:white;font-weight:bold;">
 	<td>CODE</td>
 	<td>Item</td>
 	<td>Cost</td>
-	</tr></th>
+	</tr>
 
 	<!---------PRICE LIST--------->
 	<tr>
