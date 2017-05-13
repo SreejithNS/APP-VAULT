@@ -29,7 +29,7 @@ r {
 	background-color:#9b59b6;
 	font-size:7px;
 	align:right;
-	width:100px;
+	width:105px;
 	color:#bdc3c7;
 	}
 	input[type=number] {
@@ -73,8 +73,8 @@ r {
 	background-color:white;
 	padding-top:5px;
 	padding-bottom:5px;
-	padding-right:1px;
-	padding-left:1px;
+	padding-right:0px;
+	padding-left:0px;
  animation: downfade ease 1s;
   animation-iteration-count: 1;
   transform-origin: 50% 50%;
@@ -568,9 +568,10 @@ r {
 	border-radius:5px;
 	background-color:#9b59b6;
 	font-size:7px;
-	align:right;
+	align:center;
 	width:250px;
 	color:#bdc3c7;
+	z-index:-1;
 	}
 
 #podbar {
@@ -590,3 +591,49 @@ r {
 	border-radius:3px;
 	background-color:white;
 	}
+
+::-moz-selection { /* Code for Firefox */
+    color: #9b59b6;
+    background: white;
+}
+
+::selection {
+    color: #9b59b6;
+    background: white;
+}
+
+#zonesel {
+
+border:none;
+//border:2px solid #8e44ad;
+//border-radius:5px;
+background-color:#9b59b6;
+color:white;
+font-size:7px;
+text-align:center;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+text-align:center;
+padding-right:5px;
+border:2px solid #9b59b6;
+border-radius:5px;
+}
+select::-ms-expand {
+    display: none;
+}
+:focus {
+outline: none;
+}
+
+option {
+color: white;
+font-weight:bold;
+    background: #9b59b6;
+border-radius:3px;
+border:none
+}
