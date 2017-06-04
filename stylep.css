@@ -27,7 +27,7 @@ r {
 	border:2px solid #2980b9;
 	border-radius:5px;
 	background-color:#3498db;
-	font-size:7px;
+	font-size:15px;
 	align:right;
 	width:105px;
 	color:#bdc3c7;
@@ -39,7 +39,7 @@ r {
 	border-radius:4px;
 	}
 	body {
-	font-size:10px;
+	font-size:20px;
 	font-family:Microsoft JhengHei;
 	background: linear-gradient(#34495e, #2c3e50, #2c3e50, #2c3e50);
 	}
@@ -50,7 +50,7 @@ r {
 	padding-right:1px;
 	}
 	input {
-	font-size:10px;
+	font-size:17px;
 	-webkit-transition-duration:0.4s;
 	transition-duration:0.4s;
 	color:#3498db;
