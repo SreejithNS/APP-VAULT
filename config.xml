@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
-    id          = "com.jithuappalam.salesman"
-    versionCode = "13"
-    version     = "1.0.3" >
+    id          = "com.madhavaappalam.salesman"
+    versionCode = "11"
+    version     = "1.0.0" >
 
 <name>Sales Man</name>
-<description>This app is a property of Jithu Appalam Products. This app is for Sales and Marketing Employees at Jithu Appalam Products.</description>
+<description>This app is legally Administered by Technology Department of Jithu Appalam Products. Hereby it is tendered to Madhava Appalam Products for Sales and Marketing Employees.</description>
 <author email="nssreejith229@gmail.com">Sreejith N</author>
 <platform name="android">
   <icon src="icon.png" width="180" height="180" />
